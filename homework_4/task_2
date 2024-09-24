@@ -1,4 +1,0 @@
-import random
-my_number=int(input('enter integer from 1 to 30 :'))
-for i in range(my_number) :
-    max(print(random.randint(1,10),))
