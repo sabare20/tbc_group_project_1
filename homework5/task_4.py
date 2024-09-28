@@ -1,11 +1,38 @@
-high_num=int(input('enter number fro 1 to 50 :'))
-tree='/|\\'
-if high_num>0 and high_num<50:
-    for i in range(1,high_num+2):
-        if i==1 :
-            print(' *')
-        elif i>1 :
-            print(tree)
-else:
-    print('entered number is out of range, please enter number within range.')
-    exit(1)
+
+"""
+x is height of three  others are just variables for code.
+"""
+
+
+x=int(input('enter number from 1 to 50 :'))
+
+for i in range(1,x+2):
+    l=i
+    if i==1:
+        m=1
+        while x-m>0:
+            print(' ',end='')
+            m+=1
+        print('*')
+        print(end='')
+    elif i>1 and i<x+1:
+        while x-i>0:
+            print(' ',end='')
+            i+=1
+        for n in range(1,l):
+            print('/',end='')
+        print('|',end='')
+        for t in range(1,l):
+            print('\\',end='')
+        print()
+    elif i==x+1:
+        k=1
+        while x-k>0:
+            print(' ',end='')
+            k+=1
+        print('|')
+        
+    
+    
+
+    
