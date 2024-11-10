@@ -6,6 +6,4 @@ def revers_str(string):
         reversed_str+=string[lenght_str-i]
         i+=1
     return reversed_str
-
-
 print(revers_str('12345'))

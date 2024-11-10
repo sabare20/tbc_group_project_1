@@ -4,6 +4,5 @@ def search_car(producer_company,year='2024',**parameters):
     for parameter, value in parameters.items():
             print(f'{parameter}: {value}')
     if not parameters:
-        print('no additional parameters')
-        
+        print('no additional parameters')     
 search_car('mercedes','2022',transmition_types='manual',mileage='87000')

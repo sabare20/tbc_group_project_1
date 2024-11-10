@@ -14,9 +14,4 @@ def prime_num_detector(x):
     else:
         is_prime='1 is not prime number  and also is not composite number.please enter numberwhich is different to 1 '
     return is_prime
-
-print(prime_num_detector(1))
-        
-        
-        
-        
+print(prime_num_detector(1))        
