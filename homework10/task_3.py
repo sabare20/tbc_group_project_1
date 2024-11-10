@@ -9,6 +9,4 @@ def factorial(x):
         i+=1
     return factorial
 print(factorial(3))
-
-        
         
