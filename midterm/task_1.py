@@ -1,0 +1,7 @@
+input_name=input('enter your name :')
+input_last_name=input('enter your name :')
+input_age=input('enter your name :')
+input_city=input('enter your name :')
+print(f'Hello:{input_name} {input_last_name}.')
+print(f'age:{input_age}.')
+print(f'city:{input_city}.')
