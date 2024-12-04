@@ -1,7 +1,7 @@
 friendships = {}
 while True:
     command = input("შეიყვანეთ ინფორმაცია ან დაწერეთ FINISH: ")
-    if command == "FINISH":
+    if command.upper == "FINISH":
         break
     if " - " in command:
         person1, person2 = command.split(" - ")
