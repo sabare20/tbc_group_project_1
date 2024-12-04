@@ -19,9 +19,10 @@ def rock_paper_scissor(player1):
         return main()
 def main():
     player_1_input=input('enter R,P or S :')
-    return rock_paper_scissor(player_1_input)
+    rock_paper_scissor(player_1_input)
+    
 if __name__=='__main__':
-    print(main())  
+    main()
     
         
     
