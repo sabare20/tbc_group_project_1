@@ -1,4 +1,0 @@
-user1,product1,1,5
-user1,product2,3,1
-user3,product4,4,2
-user5,product3,3,3
