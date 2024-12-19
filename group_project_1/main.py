@@ -14,6 +14,7 @@ def main():
         
         players_points = point_value(players_cards)
         print(f'points :{players_points}')
+        print(50*"*") 
         
         for player in players:
             while True:  # Loop until valid input is provided
@@ -29,7 +30,7 @@ def main():
         
         print(50*"*") 
         print("Final Cards:", players_cards)
-        print("Players' Points:", players_points)
+        print("Players' Final Points:", players_points)
         print(50*"*") 
 
         min_points = min(players_points.values())
@@ -51,7 +52,7 @@ def main():
                 print("Tie continues between:", result)
                 players = result
 
-    print(f"Winner of the game is {players[0]}!")
+    print(f"Winner of the game is {players[0]}! Please enter again .")
 
 if __name__ == "__main__":
     main()
