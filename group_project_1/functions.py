@@ -122,7 +122,7 @@ def max_value_count(cards = {}):  # ცარდს = dealing_cards()
         cards_dict = {}    #card_value:count
         
         for card in value:
-            card_value = card[:-1]
+            card_value = card[:-1] 
             
             if card_value not in cards_dict.keys():
                 cards_dict[card_value] = 1
@@ -165,7 +165,6 @@ def change_card(dast_for_game=None, players_cards=None, player=''):
             print("Error: Entered card is not in your hand. Please try again.")
     
     return players_cards
-
 
 
 # main ფუნქცია 
@@ -273,7 +272,6 @@ def main():
     else:
         print(f'WINNER OF GAME IS {players[0]}')
             
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+    #main()
     
-
